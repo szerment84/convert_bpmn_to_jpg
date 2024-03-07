@@ -1,0 +1,278 @@
+{
+  "doc": {
+    "viewGrid": {
+      "sum_list": "Liczba maszyn w jednym wierszu - wersja rozszerzonaqq",
+      "desc_list": "Liczba maszyn w jednym wierszu na monitoringu - wersja rozszerzona - zwraca szczegółowe dane zagnieżdżone w każdej liczbie linii czyli maszyny i ich wszsytkie statusy"
+    },
+    "viewMenu": {
+      "sum_list": "Lista zakładek menu",
+      "desc_list": "Zarządza strukturą menu w aplikacji, umożliwiając definiowanie, które opcje menu są dostępne dla różnych typów użytkowników",
+      "sum_access": "Sprawdza dostęp uprawnień do danej zakładki w menu",
+      "desc_access": "Sprawdza dostęp uprawnień do danej zakładki w menu"
+    },
+    "viewUserGroup": {
+      "sum_list": "Grupy użytkowników",
+      "desc_list": "Zwraca listę użytkowników"
+    },
+    "viewAccess": {
+      "sum_list": "Lista uprawnień grup",
+      "desc_list": "Wyświetla listę z uprawnieniami grup do danych zakładek menu",
+      "sum_blocked": "Sprawdza czy dany użytkownik ma dostęp do danej zakładki w menu",
+      "desc_blocked": "Sprawdza czy dany użytkownik ma dostęp do danej zakładki w menu",
+      "sum_rmall": "Usuwa naraz dostęp grup do danej zakładki oprócz grupy administratora",
+      "desc_rmall": "Usuwa naraz dostęp grup do danej zakładki oprócz grupy administratora."
+    },
+    "viewProfil": {
+      "sum_list": "Lista profili użytkowników",
+      "desc_list": "Wyświetla listę profili użytkownika",
+      "sum_access": "Profil użytkownika",
+      "desc_access": "Pobiera po zaszyfrowanej nazwie użytkownika jego profil"
+    },
+    "viewUser": {
+      "sum_list": "Lista użytkowników",
+      "desc_list": "Wyświetla listę użytowników",
+      "sum_delete": "Usuwa każdego użytkownika, oprócz superużytkownika",
+      "desc_delete": "Usuwa każdego użytkownika, oprócz superużytkownika"
+    },
+    "viewServers": {
+      "sum_list": "Lista serwerów (z zagnieżdżeniami)",
+      "desc_list": "Zwraca listę serwerów (z zagnieżdżeniami)",
+      "sum_count": "Liczba maszyn",
+      "desc_count": "Zwraca aktualną liczbę maszyn"
+    },
+    "viewLines": {
+      "sum_list": "Lista linii (z zagnieżdżeniami)",
+      "desc_list": "Zwraca listę linii (z zagnieżdżeniami)",
+      "sum_count": "Zwraca aktualną liczbę linii",
+      "desc_count": "Zwraca aktualną liczbę linii"
+    },
+    "viewMachines": {
+      "sum_list": "Lista maszyn (z zagnieżdżeniami)",
+      "desc_list": "Zwraca listę maszyn (z zagnieżdżeniami)",
+      "sum_count": "Liczba maszyn",
+      "desc_count": "Zwraca aktualną liczbę maszyn"
+    },
+    "viewEvents": {
+      "sum_list": "Lista zdarzeń",
+      "desc_list": "Zwraca kompletną listę zdarzeń",
+      "sum_charts": "Zwraca dane pod wykres typu timeline",
+      "desc_charts": "Zwraca dane pod wykres typu timeline",
+      "sum_cost": "Zwraca koszt zużycia całkowitego",
+      "desc_cost": "Zwraca koszt zużycia całkowitego",
+      "sum_chartsAnalise": "Zwraca dane do wykresu analizy",
+      "desc_chartsAnalise": "Zwraca dane do wykresu analizy",
+      "sum_chartsTimeWork": "Zwraca dane do wykresu czasu pracy",
+      "desc_chartsTimeWork": "Zwraca dane do wykresu czasu pracy",
+      "sum_chartsErrors": "Zwraca dane do wykresu błedów",
+      "desc_chartsErrors": "Zwraca dane do wykresu błedów",
+      "sum_last": "Zwraca dane ostatnich zdarzeń i pomiarów",
+      "desc_last": "Zwraca dane ostatnich zdarzeń i pomiarów"
+    },
+    "viewSurvey": {
+      "sum_list": "Lista pomiarów",
+      "desc_list": "Zwraca szczegółową listę pomiarów",
+      "sum_totalPower": "Zwraca zużycie całkowite prądu",
+      "desc_totalPower": "Zwraca zużycie całkowite prądu",
+      "sum_charts": "Zwraca dane pod wykres, w zależności od wybranego pomiaru",
+      "desc_charts": "Zwraca dane pod wykres, w zależności od wybranego pomiaru"
+    },
+    "viewLastSeen": {
+      "sum_list": "Lista - ostanie zdarzenia",
+      "desc_list": "Zwraca szczegółową listę lista - ostanie zdarzenia, zawierającą wszystkie niezbędne informacje"
+    },
+    "viewMicroStop": {
+      "sum_list": "Ustawienia mikropostoii",
+      "desc_list": "Zwraca informacje o ustawieniach mikropostoii (czas, czy są ustawione oraz kolor jaki będą miały zdarzenia ustawione jako mikropostój),"
+    },
+    "viewTarif": {
+      "sum_list": "Informacje o ustawionej taryfie dla zużycia całkowitego prądu",
+      "desc_list": "Zwraca informacje o ustawionej taryfie tj. waluta, czy jest włączona, cena, czas jej obowiązywania"
+    },
+    "viewRaports": {
+      "sum_list": "Lista raportów",
+      "desc_list": "Zwraca szczegółową listę raportów, zawierającą wszystkie niezbędne informacje",
+      "sum_generate": "Generuje zwykły raport",
+      "desc_generate": "Generuje zwykły raport",
+      "sum_generateFromTemplate": "Generuje raport na podstawie szablonu",
+      "desc_generateFromTemplate": "Generuje raport na podstawie szablonu"
+    },
+    "viewDashboard": {
+      "sum_default": "Lista widżetów z danymi na panel główny",
+      "desc_default": "Zwraca listę widżetów z danymi na panel główny"
+    },
+    "viewDashboardProfil": {
+      "sum_list": "Lista widżetów z danymi na panel główny danego użytkownika",
+      "desc_list": "Zwraca listę widżetów z danymi na panel główny danego użytkownika"
+    },
+    "viewProductionSchedule": {
+      "sum_list": "Lista zleceń produkcyjnych",
+      "desc_list": "Zwraca szczegółową listę zleceń prodkcyjnych, zawierającą wszystkie niezbędne informacje",
+      "sum_calendar": "Lista zleceń na kalendarz wg. harmongramu produkcji",
+      "desc_calendar": "Lista zleceń na kalendarz wg. harmongramu produkcji .Zwraca zlecenia wg. lokalizacji i wybranego okresu czasu",
+      "sum_orders": "Lista zamównień produkcyjnych wg. typów zleceń",
+      "desc_orders": "Zwraca listę zamówień produkcyjnych wg. typów zleceń. Jeśli brak parametrów zwróci wszsytkie"
+    },
+    "viewPlanogram": {
+      "sum_list": "Lista  planogramów",
+      "desc_list": "Zwraca szczegółową listę planogramów, zawierającą wszystkie niezbędne informacje"
+    },
+    "viewBackup": {
+      "sum_list": "Lista wykonanych kopii zapasowych",
+      "desc_list": "Zwraca szczegółową listę kopii zapasowych",
+      "sum_export": "Export kopii zapasowej",
+      "desc_export": "Wykonanie exportu kopii zapasowej",
+      "sum_import": "Import kopii zapasowej",
+      "desc_import": "Wykonanie importu kopii zapasowej"
+    },
+    "viewConfigTimeWork": {
+      "sum_list": "Lista godzin pracy poszczególnych zmian pracowników ",
+      "desc_list": "Zwraca szczegółową listę godzin pracy poszczególnych zmian pracowników"
+    },
+    "viewShiftWorkGropus": {
+      "sum_list": "Lista grup/zmian praconiwków",
+      "desc_list": "Zwraca szczegółową listę zmian/grup praconiwków"
+    },
+    "viewHelper": {
+      "sum_list": "Lista pomocy systemu",
+      "desc_list": "Zwraca szczegółową listę pomocy systemu, zawierającą wszystkie niezbędne informacje"
+    },
+    "viewCreatorReportTemplate": {
+      "sum_list": "Lista wygenerowanych raportów utworzonych na podstawie szablonu",
+      "desc_list": "Zwraca szczegółową listę wygenerowanych raportów utworzonych na podstawie szablonu"
+    },
+    "viewCreatorReportElements": {
+      "sum_list": "Lista elemntów tworzonego raportu",
+      "desc_list": "Zwraca szczegółową listę elementów tworzonego raportu"
+    },
+    "viewCreatorReportList": {
+      "sum_list": "Lista wygenerowanych raportów",
+      "desc_list": "Zwraca szczegółową listę wygenerowanych raportów"
+    },
+    "viewOrderStatus": {
+      "sum_list": "Lista zamównień produkcyjnych",
+      "desc_list": "Zwraca szczegółową listę lista zamównień produkcyjnych, zawierającą wszystkie niezbędne informacje"
+    },
+    "viewData": {
+      "sum_list": "Lista wszsytkich danych zarówno zdarzeń i pomiarów",
+      "desc_list": "Lista wszsytkich danych zarówno zdarzeń i pomiarów. Zwraca wszystkie dane bez ich przetwarzania",
+      "sum_dataBi": "Zwraca dane pod Redash",
+      "desc_dataBi": "Zwraca szczegółową listę danych - tylko pod Redash",
+      "sum_dataPandas": "Zwraca dane pod Pandas",
+      "desc_dataPandas": "Zwraca szczegółową listę - tylko dane pod Pandas (wszsytkie pola jako liczby)"
+    },
+    "viewStatuses": {
+      "sum_list": "Lista statusów",
+      "desc_list": "Zwraca szczegółową listę statusów, zawierającą wszystkie niezbędne informacje",
+      "sum_count": "Liczba statusów",
+      "desc_count": "Zwraca aktualną liczbę statusów"
+    },
+    "viewProfilesStatuses": {
+      "sum_list": "Lista profili statusów",
+      "desc_list": "Lista profili statusów"
+    },
+    "viewAliasValue": {
+      "sum_list": "Lista nazw - aliasów parametrów  dla pomiarów i zdarzeń",
+      "desc_list": "Zwraca szczegółową listę nazw - aliasów parametrów dla zdarzeń i pomiarów jako substatusy na monitoringu"
+    },
+    "viewUnitValue": {
+      "sum_list": "Lista jednostek używanych w pomiarach",
+      "desc_list": "Zwraca szczegółową listę jednostek używanych do pomiarów"
+    },
+    "viewTypeEvent": {
+      "sum_list": "Lista typów zdarzeń/pomiarów",
+      "desc_list": "Zwraca szczegółową listę typów zdarzeń/pomiarów"
+    },
+    "viewSubscriptions": {
+      "sum_list": "Informacje o posiadanej subskrypcji",
+      "desc_list": "Zwraca szczegółowe informacje o posiaddanej subskrypcji",
+      "sum_create": "Dodaje i aktywuje klucz licencyjny subskrypcj",
+      "desc_create": "Dodaje i aktywuje klucz licencyjny subskrypcji",
+      "sum_update": "Aktualizuje subskrypcję",
+      "desc_update": "Aktualizuje subskrypcję",
+      "sum_checkExp": "Sprawdza ważnośÄ‡ klucza licencyjnego subskrypcji",
+      "desc_checkExp": "Sprawdza ważnośÄ‡ klucza licencyjnego subskrypcji"
+    },
+    "viewSettings": {
+      "sum_list": "Ustawień systemu",
+      "desc_list": "Zwraca ustawienia systemu, tj. klucz API do Redash"
+    },
+    "viewServersListNonInheritance": {
+      "sum_list": "Lista serwerów (bez zagnieżdżeń)",
+      "desc_list": "Wyświetla listę serwerów bez zagnieżdĹşeń"
+    },
+    "viewLinesListNonInheritance": {
+      "sum_list": "Lista linii (bez zagnieżdżeń)",
+      "desc_list": "Wyświetla listę linii bez zagnieżdĹşeń"
+    },
+    "viewMachinesListNonInheritance": {
+      "sum_list": "Lista maszyn (bez zagnieżdżeń)",
+      "desc_list": "Wyświetla listę maszyn bez zagnieżdĹşeń",
+      "sum_create": "Dodaje wiele maszyn - nie przekraczając limitu licencji",
+      "desc_create": "Dodaje wiele maszyn - nie przekraczając limitu licencj"
+    },
+    "viewStatusesListNonInheritance": {
+      "sum_create": "Dodaje naraz wiele",
+      "desc_create": "Dodaje naraz wiele",
+      "sum_list": "Lista statusów (bez zagnieżdżeń)",
+      "desc_list": "Wyświetla listę statusów bez zagnieżdĹşeń",
+      "sum_multi": "Dodaje wiele statusów naraz",
+      "desc_multi": "Dodaje wiele statusów naraz",
+      "sum_updated": "Aktualizuje naraz wiele statusów",
+      "desc_updated": "Aktualizuje naraz wiele statusów",
+      "sum_rmAll": "Usuwa wiele nieprzypisanych statusów naraz",
+      "desc_rmAll": "Usuwa wiele statusów naraz",
+      "sum_emAllEmpty": "Usuwa wiele statusów naraz",
+      "desc_emAllEmpty": "Usuwa wiele statusów naraz - ale tylko te które nie zostały przypisane do danej maszyny"
+    },
+    "viewListServers": {
+      "sum_list": "Lista serwerów/parków - skrócony spis",
+      "desc_list": "Wyświetla liste serwerów (id,name)"
+    },
+    "viewListLines": {
+      "sum_list": "Lista linii - skrócony spis",
+      "desc_list": "Wyświetla listę linii (id,name,server)"
+    },
+    "viewListMachines": {
+      "sum_list": "Lista maszyn - skrócony spis",
+      "desc_list": "Wyświetla listę maszyn (id,name,server,line)"
+    },
+    "viewListStatuses": {
+      "sum_list": "Lista statusów - skrócony spis",
+      "desc_list": "Wyświetla liste statusów (id, tag, value)"
+    },
+    "viewListStatusesProfiles": {
+      "sum_list": "Lista profili statusów - skrócony spis",
+      "desc_list": "Wyświetla liste profili statusów (na tej liście są wszsytkie pola)"
+    },
+    "viewListGrid": {
+      "sum_list": "Lista liczb wierszy linii produkcyjncyh - skrócony spis",
+      "desc_list": "Wyświetla listę liczb wierszy linii produkcyjncyh"
+    },
+    "viewListProductionSchedule": {
+      "sum_list": "Lista zleceń - skrócony spis",
+      "desc_list": "Wyświetla listę zleceń z proecentem jego wykonania - jako liczba (id,name,progress)"
+    },
+    "viewListTypeEvents": {
+      "sum_list": "Lista typów zdarzeń i pomiarów - skrócony spis",
+      "desc_list": "Wyświetla listę typów zdarzeń i pomiarów (id,name,type_data,name_translate)"
+    },
+    "viewListAliases": {
+      "sum_list": "Lista aliasów parametrów - skrócony spis",
+      "desc_list": "Wyświetla listę pomiarów jak np temperatura, rejestr, zużycie całkowite"
+    },
+    "viewListUnits": {
+      "sum_list": "Lista jednostek - skrócony spis",
+      "desc_list": "Wyświetla listę jednostek",
+      "sum_test": "New value for sum",
+      "desc_test": "New value for desc"
+    },
+    "viewListCreatorReportTemplate": {
+      "sum_list": "Lista szablonów raportów - skrócony spis",
+      "desc_list": "Wyświetla listę szablonów raportów"
+    },
+    "viewListHelperSchedule": {
+      "sum_list": "Lista pomocy systemu - skrócony spis",
+      "desc_list": "Wyświetla listę (skrócony spis tematów pomocy systemu)"
+    }
+  }
+}
